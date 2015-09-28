@@ -99,7 +99,7 @@ CKEDITOR.dialog.add('pbckcodeDialog', function (editor) {
     // dialog code
     return {
         // Basic properties of the dialog window: title, minimum size.
-        title     : '插入代码',
+        title     : '插入代碼',
         minWidth  : 600,
         minHeight : 300,
         // Dialog window contents definition.

@@ -2,7 +2,7 @@
     function WecenterVideoDialog(editor) {
  
         return {
-            title: '插入视频',
+            title: '插入視頻',
             minWidth: 400,
             minHeight: 110,
             buttons: [
@@ -21,13 +21,13 @@
                             commit: function () {
                                 if (this.getValue()) {
                                     editor.insertHtml('<br /><video>' + this.getValue()  + '</video>');
-                                    //editor.insertText( '!![视频名称](' + this.getValue() + ')' );
+                                    //editor.insertText( '!![視頻名稱](' + this.getValue() + ')' );
                                 }
                             }
                         },
                         {
                             type: 'html',
-                            html : '<p style="font-size:14px;color:#999;">我们目前支持: 优酷、酷六、土豆、56、新浪播客、乐视、Youtube 与 SWF 文件!</p>'
+                            html : '<p style="font-size:14px;color:#999;">我們目前支持: 優酷、酷六、土豆、56、新浪播客、樂視、Youtube 與 SWF 文件!</p>'
                         }
                     ]
                 }
