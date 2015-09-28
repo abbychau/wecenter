@@ -6,12 +6,12 @@ window.onload = function()
 			newNode.setAttribute('id', 'browser-not-support');
 	        newNode.innerHTML = '<img class="pull-left" src="'+ G_STATIC_URL +'/css/default/img/404-logo.png" alt="" />'+
 					'<div class="pull-left content">'+
-						'<h1>您的浏览器<span>不受支持</span></h1>'+
-						'<p>您的浏览器版本非常旧, 存在诸多安全和体验问题! 建议<a href="http://windows.microsoft.com/zh-cn/windows/upgrade-your-browser">更新</a>或者使用其他浏览器来访问, 如果您使用的是搜狗、360、遨游等双核浏览器, 请切换到极速模式以获得更好的体验</p>'+
+						'<h1>您的瀏覽器<span>不受支持</span></h1>'+
+						'<p>您的瀏覽器版本非常舊, 存在諸多安全和體驗問題! 建議<a href="http://windows.microsoft.com/zh-cn/windows/upgrade-your-browser">更新</a>或者使用其他瀏覽器來訪問, 如果您使用的是搜狗、360、遨遊等雙核瀏覽器, 請切換到極速模式以獲得更好的體驗</p>'+
 						'<ul>'+
-							'<li><a href="http://www.google.cn/intl/zh-CN/chrome/browser/">￮ Google 浏览器</a></li>'+
-							'<li><a href="http://opera.com/">￮ Opera 浏览器</a></li>'+
-							'<li><a href="http://www.mozilla.com/firefox/">￮ Firefox 浏览器</a></li>'+
+							'<li><a href="http://www.google.com/chrome/">￮ Google 瀏覽器</a></li>'+
+							'<li><a href="http://opera.com/">￮ Opera 瀏覽器</a></li>'+
+							'<li><a href="http://www.mozilla.com/firefox/">￮ Firefox 瀏覽器</a></li>'+
 						'</ul>'+
 					'</div>';
 		document.getElementsByTagName('body')[0].appendChild(newNode);

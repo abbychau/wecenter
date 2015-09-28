@@ -2,7 +2,7 @@
     function WecenterLinkDialog(editor) {
  
         return {
-            title: '插入超链接',
+            title: '插入超鏈接',
             minWidth: 470,
             minHeight: 110,
             buttons: [
@@ -17,7 +17,7 @@
                     [
                         {
                             type: 'html',
-                            html : '<p style="margin-bottom:10px;font-size:14px;">链接标题</p>'
+                            html : '<p style="margin-bottom:10px;font-size:14px;">鏈接標題</p>'
                         },
                         {
                             type: 'text',
@@ -26,7 +26,7 @@
                         },
                         {
                             type: 'html',
-                            html : '<p style="margin-top:15px;font-size:14px;">链接地址</p>'
+                            html : '<p style="margin-top:15px;font-size:14px;">鏈接地址</p>'
                         },
                         {
                             type: 'text',

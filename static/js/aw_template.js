@@ -86,7 +86,7 @@ var AW_TEMPLATE = {
 							'<textarea name="answer_content" id="editor_reply" class="form-control" rows="10"></textarea>'+
 							'<div class="aw-file-upload-box">'+
 								'<div class="aw-upload-box">'+
-									'<a class="btn btn-default">上传附件</a>'+
+									'<a class="btn btn-default">' + _t('上传附件') + '</a>'+
 									'<div class="upload-container"></div>'+
 								'</div>'+
 							'</div>'+

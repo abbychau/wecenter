@@ -2,7 +2,7 @@
     function WecenterImageDialog(editor) {
  
         return {
-            title: '插入图片',
+            title: '插入圖片',
             minWidth: 470,
             minHeight: 110,
             buttons: [
@@ -28,7 +28,7 @@
                         },
                         {
                             type: 'html',
-                            html : '<p style="font-size:14px;color:#999;">如需要插入本地图片, 请用编辑器下面上传附件功能上传后再插入!</p>'
+                            html : '<p style="font-size:14px;color:#999;">如需要插入本地圖片, 請用編輯器下面上傳附件功能上傳後再插入!</p>'
                         }
                     ]
                 }
