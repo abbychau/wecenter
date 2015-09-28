@@ -22,6 +22,7 @@ class core_autoload
 		'HTTP'				=> 'class/cls_http.inc.php',
 		'H'					=> 'class/cls_helper.inc.php',
 		'ACTION_LOG'		=> 'class/cls_action_log_class.inc.php',
+		'TWCN'				=> 'class/cls_twcn.inc.php',
 	);
 
 	public function __construct()
