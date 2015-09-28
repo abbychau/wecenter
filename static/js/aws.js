@@ -671,18 +671,18 @@ var AWS =
 						{
 							if (result != null)
 							{
-								$.each(result, function (i, e)
-								{
-									var index = i;
+							$.each(result, function (i, e)
+							{
+								var index = i;
 
-									$.each($('.aw-favorite-tag-list ul li .title'), function (i, e)
+								$.each($('.aw-favorite-tag-list ul li .title'), function (i, e)
+								{
+									if ($(this).text() == result[index])
 									{
-										if ($(this).text() == result[index])
-										{
-											$(this).parents('li').addClass('active');
-										}
-									});
+										$(this).parents('li').addClass('active');
+									}
 								});
+							});
 							}
 						}, 'json');
 
@@ -2751,6 +2751,9 @@ function _t(string, replace)
 		if (typeof (aws_lang[string]) != 'undefined')
 		{
 			string = aws_lang[string];
+		}else{
+			string = Traditionalized(string);
+			console.log(string + "is traditionalized");
 		}
 	}
 

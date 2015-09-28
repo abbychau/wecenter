@@ -75,8 +75,9 @@ class core_lang
 			{
 				$string = str_replace($search, $replace, $string);
 			}
-
-			return $string;
+			global $TWCN;
+			if(!$TWCN){$TWCN = new TWCN();}
+			return $TWCN->trad($string);
 		}
 	}
 
