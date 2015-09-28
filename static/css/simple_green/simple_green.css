@@ -18,12 +18,23 @@ a:hover{
   width: 123px;
   margin: 7px 0 0 0;
 }
+.aw-login-box .logo{
+	
+	background: transparent url("/static/css/simple_green/img/logo.png") no-repeat scroll 0% 0%;
+}
 .aw-logo a{
   width: 123px;
   background: url('/static/css/simple_green/img/logo.png') no-repeat;
 }
+.navbar-toggle{
+	height:38px;width:38px;
+	background: url('/static/css/simple_green/img/q.png') no-repeat;
+}
 .navbar-collapse{
   background: #FFF;
+}
+.aw-top-nav .icon-bar{
+	color:#999;
 }
 .aw-top-nav > nav > ul > li > a {
   color: #999;
@@ -49,10 +60,6 @@ body{
 }
 
 /*其他樣式*/
-.aw-footer-wrap{
-  background: #FFF;
-  margin-top: 10px;
-}
 .btn-primary{
   border: none !important;
   background-color: #1ABC9C;
@@ -64,25 +71,12 @@ body{
 .aw-publish-btn .dropdown-list a {
   background-color: #1ABC9C;
 }
-.aw-footer-wrap {
-  background: #444;
-}
-.aw-footer h4{
-  font-size: 16px;
-  color: #fff;
-}
 .aw-footer a{
   cursor: pointer;
-  color: #999;
+  color: #c0c0c0;
 }
 .aw-footer a:hover{
-  color: #1ABC9C;
-}
-.aw-footer{
-  color:#999;
-}
-.container{
-  width: 1050px !important;
+  color: #666;
 }
 .topic-tag .text{
   background-color: #1ABC9C;
@@ -117,6 +111,7 @@ body{
 .aw-common-list > div + div {
   border-top: 1px solid #eee;
 }
+.aw-search-box{padding-left:1em}
 .aw-search-box input {
   border: 1px solid #ccc;
 }

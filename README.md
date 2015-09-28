@@ -1,1 +1,1 @@
-Readme please refer to : [https://github.com/wecenter/wecenter]
+Trunk code and readme please refer to : [https://github.com/wecenter/wecenter]QQ: 56750419 for branch merges discussions.

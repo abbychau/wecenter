@@ -669,22 +669,22 @@ class ajax extends AWS_CONTROLLER
 			switch (AWS_APP::upload()->get_error())
             {
                 default:
-                    die("{'error':'错误代码: " . AWS_APP::upload()->get_error() . "'}");
+                    die("{'error':'錯誤代碼: " . AWS_APP::upload()->get_error() . "'}");
                 break;
 
                 case 'upload_invalid_filetype':
-                    die("{'error':'文件类型无效'}");
+                    die("{'error':'文件類型無效'}");
                 break;
 
                 case 'upload_invalid_filesize':
-                    die("{'error':'文件尺寸过大, 最大允许尺寸为 " . get_setting('upload_size_limit') .  " KB'}");
+                    die("{'error':'文件尺寸過大, 最大允許尺寸為 " . get_setting('upload_avatar_size_limit') .  " KB'}");
                 break;
             }
 		}
 
 		if (! $upload_data = AWS_APP::upload()->data())
         {
-            die("{'error':'上传失败, 请与管理员联系'}");
+            die("{'error':'上傳失敗, 請與管理員聯繫'}");
         }
 
 		if ($upload_data['is_image'] == 1)
@@ -710,7 +710,7 @@ class ajax extends AWS_CONTROLLER
 
 		if (!$this->model('integral')->fetch_log($this->user_id, 'UPLOAD_AVATAR'))
 		{
-			$this->model('integral')->process($this->user_id, 'UPLOAD_AVATAR', round((get_setting('integral_system_config_profile') * 0.2)), '上传头像');
+			$this->model('integral')->process($this->user_id, 'UPLOAD_AVATAR', round((get_setting('integral_system_config_profile') * 0.2)), '上傳頭像');
 		}
 
 		echo htmlspecialchars(json_encode(array(
